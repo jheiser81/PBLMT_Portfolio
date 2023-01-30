@@ -15,7 +15,7 @@
 .gear{
   width:510px;
   height:480px;
-  background-image: url("../img/gear-1119298_640.png");
+  background-image: url("../img/");
   background-position:center;
   animation: gear_spin 1.5s infinite;
 }
