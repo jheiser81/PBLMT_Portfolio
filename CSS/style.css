@@ -25,15 +25,10 @@
   height: 350px;
   animation: gear_spin 10s linear infinite;
   position:relative;
-  
 }
 .gear:hover{
-  transform: rotate(1440deg);
+  transform: rotate(2880deg);
   transition:all 2.5s;
-}
-.gear:active{
-  transform:scale(1.2);
-
 }
 .gear2 {
   width: 250px;
@@ -42,6 +37,12 @@
   left:200px;
   bottom: 190px;
   animation: gear_spin 10s linear infinite;
+}
+.gear2:hover{
+  transform:rotateY(45deg);
+  transition:all 1s;
+  transform:rotateX(45deg)
+  
 }
 .gear3 {
   width: 150px;
@@ -52,8 +53,14 @@
   left:150px;
   animation:gear_spin 10s linear infinite;
 }
+.gear3:hover{
+  transform:rotate(5760deg) skewY(50deg) skewX(25deg);
+  transition:all 5s;
+  
+}
+
 @keyframes gear_spin {
-  50%{rotate:720deg;}
+  50%{rotate:1440deg;}
   }
 
 
