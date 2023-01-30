@@ -5,6 +5,7 @@
     background-size:cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center;
 }
 @media (max-width: 1200px){
   .bg{
