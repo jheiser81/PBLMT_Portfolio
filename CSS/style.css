@@ -27,22 +27,30 @@
   animation: gear_spin 10s linear infinite;
   position:relative;
 }
-/* @keyframes gear_spin {
+@keyframes gear_spin {
   50%{rotate:720deg;}
-  } */
+  }
 .gear2 {
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   position: absolute;
   left:200px;
-  bottom:125px;
+  bottom: 185px;
   animation: gear_spin2 10s linear infinite;
 }
-/* @keyframes gear_spin2{
+@keyframes gear_spin2{
   50%{rotate:720deg;}
-} */
+}
 .gear3 {
-  width: 350px;
-  height: 350px;
+  width: 150px;
+  height: 150px;
+  position:absolute;
+  right:200px;
+  bottom:105px;
+  left:150px;
+  animation:gear_spin2 10s linear infinite;
+}
+@keyframes gear_spin {
+  50%{rotate:720deg;}
 }
 
