@@ -19,7 +19,6 @@
 .gearbox {
   width: 600px;
   height: 1000px;
-  outline: 2px solid white;
 }
 .gear {
   width: 350px;
@@ -35,7 +34,7 @@
   height: 250px;
   position: absolute;
   left:200px;
-  bottom: 185px;
+  bottom: 190px;
   animation: gear_spin2 10s linear infinite;
 }
 @keyframes gear_spin2{
