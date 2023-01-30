@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .bg{
     width: 100%;;
     height:100vh;
@@ -12,13 +11,3 @@
   width: 100%;
   height: 100%;
 }
-=======
-.bg{
-    background-image: url("../img/abstract-316425.jpg");
-    width:100%;
-    height:100vh;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
->>>>>>> 16dfa87e8a0a9067ad6bd739646f0e4e84cb312c
