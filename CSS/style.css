@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-.bg {
+/* .bg {
   width: auto;
   height: 85vh;
   background-image: url("../img/smoke-2437886_1920.jpg");
@@ -10,7 +10,7 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 .overlay {
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
@@ -22,76 +22,108 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-  border:3px solid black;
+  /* border:3px solid black; */
 }
 .navbar {
   list-style-type: none;
   height: 60px;
-  width:100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/img/frame-6989670_1920.jpg);
-  background-position:top;
-  box-shadow: 1px 20px 150px rgba(253, 137, 53, 0.828), 1px 2px 30px rgb(253, 195, 3), 1px 1px 30px red;
+  background-image: url("../img/frame-6989670_1920.jpg");
+  background-size: cover;
+  border-bottom: 2px solid rgb(30, 30, 30);
+  box-shadow: 1px 1px 5px rgb(76, 75, 75);
+  background-repeat: no-repeat;
+}
+.navbar:hover {
+  box-shadow: 1px 2px 130px rgba(253, 137, 53, 0.828),
+    1px 2px 30px rgb(253, 195, 3), 0px 10px 160px red;
+  transition: all 3s;
 }
 .nav-item {
   padding: 8px;
   font-size: 2.5vw;
   text-decoration: none;
-  text-shadow: 1px 18px 2px rgb(0, 0, 0);
+  text-shadow: -1px -2px 0 black, 1px -2px 0 black, -1px 1px 0 black,
+    1px 1px 0 black, 1px 10px 2px rgb(0, 0, 0);
   color: rgb(255, 145, 0);
+}
+.nav-item:hover {
+  font-size: 4em;
+  transition: all 3s;
 }
 .nav-li {
   display: inline;
-  border-right: 2px solid whitesmoke;
+  border-right: 5px double black;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.phrase {
+  height: auto;
+  width: auto;
+  color: orangered;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .gearbox {
-  width: 420px;
-  height: 600px;
-  outline:2px solid white;
+  width: 160px;
+  height: 300px;
+  outline: 2px solid white;
+}
+.gearbox2 {
+  width: 400px;
+  height: 200px;
+  outline: 2px solid white;
 }
 .gear {
-  width: 350px;
-  height: 350px;
+  width: 100px;
+  height: 100px;
   animation: gear_spin 10s linear infinite;
-  position:relative;
+  position: relative;
+  top: 180px;
+  left: -5px;
 }
-.gear:hover{
+.gear:hover {
   transform: rotate(2880deg);
-  transition:all 2.5s;
+  transition: all 2.5s;
 }
 .gear2 {
-  width: 250px;
-  height: 250px;
+  width: 50px;
+  height: 50px;
   position: absolute;
-  left:200px;
-  bottom: 200px;
+  top: 180px;
+  left: 87px;
   animation: gear_spin 10s linear infinite;
 }
-.gear2:hover{
-  transform:rotateY(45deg)rotateX(15deg);
-  transition:all 3s;
-  }
+.gear2:hover {
+  transform: rotateY(45deg) rotateX(15deg);
+  transition: all 3s;
+}
 .gear3 {
   width: 150px;
   height: 150px;
-  position:absolute;
-  right:200px;
-  bottom:127px;
-  left:150px;
-  animation:gear_spin 10s linear infinite;
+  position: absolute;
+  left: 4px;
+  top: 55px;
+  animation: gear_spin 10s linear infinite;
 }
-.gear3:hover{
-  transform:rotate(5760deg) skewY(10deg) skewX(10deg);
-  transition:all 5s;
-  }
+.gear3:hover {
+  transform: rotate(5760deg) skewY(10deg) skewX(10deg);
+  transition: all 5s;
+}
 @keyframes gear_spin {
-  50%{rotate:1440deg;}
+  50% {
+    rotate: 1440deg;
   }
+}
 /* -----Contact Page----- */
-
-.form_bg{
+.form_bg {
   width: auto;
   height: 100vh;
   background-image: url("../img/gear-1127518_1920.png");
@@ -102,7 +134,7 @@
   background-position: center;
 }
 .form_container {
-  width:auto;
+  width: auto;
   text-align: center;
   display: flex;
   align-items: center;
@@ -113,26 +145,37 @@ form {
   color: rgb(235, 228, 228);
   justify-content: center;
   align-items: center;
+  margin:100px;
 }
 label {
   font-weight: bold;
-  outline:2px solid lightgrey;
-  background-image: linear-gradient(66deg, rgba(0,0,0,1) 0%, rgba(210,130,48,1) 100%);
-  color:rgb(248, 195, 3);
+  outline: 2px solid lightgrey;
+  background-image: linear-gradient(
+    66deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(210, 130, 48, 1) 100%
+  );
+  color: rgb(248, 195, 3);
   border-radius: 5px;
-  padding:4px;
 }
-textarea{
-  margin:20px;
+input{
+  margin:10px;
+}
+textarea {
+  margin: 20px;
 }
 .form_btn {
   width: 75px;
   height: 25px;
-  background-image:linear-gradient(66deg, rgba(0,0,0,1) 0%, rgba(210,130,48,1) 100%);
+  background-image: linear-gradient(
+    66deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(210, 130, 48, 1) 100%
+  );
   border-radius: 5px;
   font-weight: bold;
-  color:rgb(248, 195, 3);
-  outline:2px solid white;
+  color: rgb(248, 195, 3);
+  outline: 2px solid white;
 }
 .form_btn:hover {
   transform: scale(1.2);
