@@ -56,10 +56,15 @@
   transform:rotate(5760deg) skewY(50deg) skewX(25deg);
   transition:all 5s;
   }
-@keyframes gear_spin {
+/* @keyframes gear_spin {
   50%{rotate:1440deg;}
-  }
+  } */
 /* -----Contact Page----- */
+.gear_btn{
+  width:75px;
+  height:125px;
+  outline:2px solid white;
+}
 .form_bg{
   width: auto;
   height: 100vh;
