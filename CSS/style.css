@@ -3,11 +3,11 @@
   padding: 0;
 } */
 .bg {
-  width: 100%;
+  width: auto;
   height: 100vh;
   background-image: url("../img/abstract-316425.jpg");
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -42,8 +42,7 @@
   transform:rotateY(45deg);
   transition:all 1s;
   transform:rotateX(45deg)
-  
-}
+  }
 .gear3 {
   width: 150px;
   height: 150px;
@@ -56,11 +55,55 @@
 .gear3:hover{
   transform:rotate(5760deg) skewY(50deg) skewX(25deg);
   transition:all 5s;
-  
-}
-
+  }
 @keyframes gear_spin {
   50%{rotate:1440deg;}
   }
-
-
+/* -----Contact Page----- */
+.form_bg{
+  width: auto;
+  height: 100vh;
+  background-image: url("../img/gear-1127518_1920.png");
+  background-color: black;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.form_container {
+  width:auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  width: 400px;
+  color: rgb(235, 228, 228);
+  justify-content: center;
+  align-items: center;
+}
+label {
+  font-weight: bold;
+  outline:2px solid lightgrey;
+  background-image: linear-gradient(66deg, rgba(0,0,0,1) 0%, rgba(210,130,48,1) 100%);
+  color:rgb(248, 195, 3);
+  border-radius: 5px;
+  padding:4px;
+}
+textarea{
+  margin:20px;
+}
+.form_btn {
+  width: 75px;
+  height: 25px;
+  background-image:linear-gradient(66deg, rgba(0,0,0,1) 0%, rgba(210,130,48,1) 100%);
+  border-radius: 5px;
+  font-weight: bold;
+  color:rgb(248, 195, 3);
+  outline:2px solid white;
+}
+.form_btn:hover {
+  transform: scale(1.2);
+  transition: all 1.5s;
+}
