@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-/* .bg {
+.bg {
   width: auto;
   height: 85vh;
   background-image: url("../img/smoke-2437886_1920.jpg");
@@ -10,7 +10,7 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-} */
+}
 .overlay {
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
@@ -59,17 +59,20 @@
   border-right: 5px double black;
 }
 .container {
-  height: 100%;
-  width: 100%;
+  height: 200px;
+  width: 400px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .phrase {
-  height: auto;
-  width: auto;
+  height: 200px;
+  width: 400px;
   color: orangered;
   text-align: center;
   justify-content: center;
   align-items: center;
+  outline:2px solid white;
 }
 .gearbox {
   width: 160px;
