@@ -18,22 +18,22 @@ a {
   color: black;
 }
 
-.title-header {
-  background-color: #1616f0;
-  height: 125px;
-  color: #fff;
+.header {
+ background-color: rgb(31, 31, 31);
+  height: 60px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
-.company-name {
-  margin-left: 40px;
+.name {
+  color: orange
 }
 .title-nav {
   display: flex;
   justify-content: flex-end;
   padding: 5px;
   box-sizing: border-box;
-  background-color: #33e51f;
+  background-image:url("/img/frame-6989670_1920.jpg");
   width: 100%;
 }
 .title-nav-items {
