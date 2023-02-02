@@ -19,6 +19,16 @@ a {
   display: flex;
   align-items: center;
 }
+@media (max-width: 768px) {
+.header {
+  justify-content: center;
+}
+}
+@media (max-width: 576px) {
+  .header {
+    justify-content: center;
+  }
+}
 .name {
   color: rgb(255, 145, 0);
   text-shadow: -1px -2px 0 black, 1px -2px 0 black, -1px 1px 0 black,
@@ -29,12 +39,10 @@ a {
 .title-nav {
   display: flex;
   justify-content:space-evenly;
-  /* flex-wrap: wrap; */
+  flex-wrap:nowrap;
   padding: 5px;
   box-sizing: border-box;
   background-image: url("../img/frame-6989670_1920.jpg");
-  background-position: center center;
-  background-attachment: fixed;
   width: 100%;
 }
 @media (max-width: 768px) {
@@ -51,7 +59,7 @@ a {
   transition: all 3s;
 }
 .title-nav-items {
-  margin-right: 40px;
+ display:flex;
 }
 .nav_text {
   color: rgb(255, 145, 0);
@@ -169,38 +177,6 @@ a.nav_text:hover {
     rotate: 1440deg;
   }
 }
-/* @media (max-width: 1200px) {
-  .main-bg-image {
-    margin-bottom: 2em;
-  }
-  .gearbox {
-    padding: 2em 4em 0;
-  }
-}
-@media (max-width: 992px) {
-  .main-bg-image {
-    margin-bottom: 2em;
-  }
-  .gearbox {
-    padding: 2em 4em 0;
-  }
-}
-@media (max-width: 768px) {
-  .main-bg-image {
-    margin-bottom: 2em;
-  }
-  .gearbox {
-    padding: 2em 4em 0;
-  }
-}
-@media (max-width: 576px) {
-  .main-bg-image {
-    margin-bottom: 2em;
-  }
-  .gearbox {
-    padding: 2em 4em 0;
-  }
-} */
 /* -----Contact Page----- */
 .form_bg {
   width: 100%;
