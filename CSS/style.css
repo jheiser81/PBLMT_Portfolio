@@ -28,13 +28,22 @@ a {
 }
 .title-nav {
   display: flex;
-  /* justify-content: center; */
+  justify-content:space-evenly;
+  /* flex-wrap: wrap; */
   padding: 5px;
   box-sizing: border-box;
   background-image: url("../img/frame-6989670_1920.jpg");
-  background-position: center center;
-  background-attachment: fixed;
   width: 100%;
+}
+@media (max-width: 768px) {
+  .title-nav{
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 576px) {
+  .title-nav{
+    flex-wrap: wrap;
+  }
 }
 .title-nav:hover {
   transition: all 3s;
@@ -63,6 +72,7 @@ a.nav_text:hover {
   background-image: url("../img/smoke-2437886_1920.jpg");
   background-size: cover;
   background-position: center;
+  background-position:fixed;
 }
 .overlay {
   width: 100%;
@@ -153,8 +163,8 @@ a.nav_text:hover {
 }
 @keyframes alt_spin {
   50% {
-    translate: 150px;
-    rotate: 730deg;
+    translate: 50px;
+    rotate: 1440deg;
   }
 }
 /* @media (max-width: 1200px) {
