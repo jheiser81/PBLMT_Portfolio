@@ -83,6 +83,7 @@ a.nav_text:hover {
   background-size: cover;
   background-position: center;
   background-position:fixed;
+  box-sizing: border-box;
 }
 .overlay {
   width: 100%;
@@ -237,30 +238,24 @@ textarea {
   transform: scale(1.2);
   transition: all 1.5s;
 }
-/* @media (max-width: 1200px) {
-  .form_bg {
-    padding: 2em 4em 0;
-    margin-bottom: 2em;
-  }
+/* -----Projects Page----- */
+.proj_bg{
+ width: 100%;
+  height: 85vh;
+  background-image: url("../img/abstract-316425.jpg");
+  background-color: black;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
-@media (max-width: 992px) {
-  .form_bg {
-    padding: 2em 4em 0;
-    margin-bottom: 2em;
-  }
+.proj_cont {
+  width:100%;
+  height:100%;
+  outline: 2px solid white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
-@media (max-width: 768px) {
-  .form_bg {
-    padding: 2em 4em 0;
-    margin-bottom: 2em;
-  }
-}
-@media (max-width: 576px) {
-  .main-bg-image {
-    margin-bottom: 2em;
-  }
-  .form_bg {
-    padding: 2em 4em 0;
-    margin-bottom: 2em;
-  }
-} */
+
+
