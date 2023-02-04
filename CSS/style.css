@@ -257,5 +257,27 @@ textarea {
   align-items: center;
   justify-content: center;
 }
+.proj_gearbox {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proj_slog_cont{
+  width:400px;
+  height: 100px;
+  outline:2px solid white;
+  display:flex;
+  align-items: flex-start;
+  justify-content: center;
+  position:absolute;
+  
+}
+.proj_gear{
+  width:250px;
+  height:250px;
+  border:2px solid white;
+}
 
 
