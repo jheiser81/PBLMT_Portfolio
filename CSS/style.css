@@ -11,7 +11,7 @@ ul {
 }
 a {
   text-decoration: none;
-  color: black;
+  /* color: black; */
 }
 .header {
   background-color: rgb(26, 26, 26);
@@ -183,6 +183,7 @@ a.nav_text:hover {
     rotate: 1440deg;
   }
 }
+/* -----Main page end----- */
 /* -----Contact Page----- */
 .form_bg {
   width: 100%;
@@ -302,5 +303,7 @@ transition:0.2s;
     0.1em -0.1em 1em;
   transition: all 2.5s;
 }
+/* -----Projects page end----- */
+
 
 
