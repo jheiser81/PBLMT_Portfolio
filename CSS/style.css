@@ -304,5 +304,45 @@ transition:0.2s;
 }
 /* -----Projects page end----- */
 /* -----About Page----- */
-
+.ab_bg {
+  width: 100%;
+  height: 85vh;
+  background-image: url("../img/watercolor-5062356_1920.jpg");
+  background-color: black;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  animation:bg_shift 20s ease-in-out infinite;
+}
+@keyframes bg_shift {
+ 50% {background-image:url("../img/watercolor-1734410_1920.jpg");
+} 
+}
+.ab_container{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border:2px solid black;
+  flex-direction: column;
+}
+.ab_text_box{
+  width:500px;
+  display:flex;
+  align-items: flex-start;
+  justify-content: center;
+  border:2px solid black;
+}
+.ab_text{
+  width:500px;
+  height:150px;
+  outline:2px solid black;
+  font-size: 25px;
+  color:black;
+  text-align: center;
+  display:flex;
+  align-items: center;
+}
 
