@@ -333,13 +333,13 @@ textarea {
   flex-direction: column;
 }
 .ab_text_box {
-  width: 300px;
+  width: auto;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 }
 .ab_text {
-  width: 300px;
+  width: auto;
   height: 100px;
   font-size: 25px;
   text-align: center;
@@ -358,7 +358,7 @@ textarea {
   }
 }
 .ab_text2 {
-  width: 300px;
+  width: auto;
   height: 100px;
   font-size: 25px;
   text-align: center;
@@ -369,15 +369,19 @@ textarea {
   opacity: 1;
 }
 .ab_text_box2 {
-  width: 300px;
+  width: auto;
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  position: relative;
-  left: 45px;
+}
+.ab_text_box3 {
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 .ab_text3 {
-  width: 300px;
+  width: auto;
   height: 100px;
   font-size: 25px;
   text-align: center;
@@ -387,28 +391,21 @@ textarea {
   animation: text_fade 15s ease-in-out;
   opacity: 1;
 }
-.ab_text_box3 {
-  width: 300px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  position: relative;
-  right: 45px;
-}
 .ab_text_box4 {
-  width: 300px;
+  width: auto;
   display: flex;
   align-items: flex-start;
   justify-content: center;
 }
 .ab_text_li {
-  width: 300px;
+  width: auto;
   height: 100px;
   font-size: 25px;
-  text-align: left;
+  text-align:left;
   justify-content: center;
   display: flex;
   align-items: center;
+  list-style: inside;
   opacity: 1;
   animation: text_fade 20s ease-in-out;
 }
